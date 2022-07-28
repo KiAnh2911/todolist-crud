@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{padding: 0;margin: 0;font-family: 'Open Sans', sans-serif;font-size: 16px}
+
+
+.form-control{display: flex;text-align: center;padding: 20px;}
+textarea {width: 400px;height: 40px;padding: 5px;resize: none;}
+.form-control button{border-radius: 10px; margin-left: 10px;border: 1px solid #ccc;text-transform: uppercase;font-weight: 700;cursor: pointer;}
+.list{width: 400px;padding: 20px;}
+.list h3{text-transform: uppercase;}
+.list ul{padding: 0;margin: 0;}
+.list ul li {display: flex;justify-content: space-between;margin-bottom: 20px;}
+.crud a{text-decoration: none;color: #000;padding: 5px 10px;}
+.btn-up{background: #3498db}
+.btn-dl{margin-left: 10px;background: red;}
